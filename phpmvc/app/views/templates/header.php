@@ -10,15 +10,15 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
     <a class="navbar-brand" href="<?= BASEURL; ?>">PHP MVC</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
+    </button> -->
     <div class="collapse navbar-collapse" id="navbarNav">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="<?= BASEURL; ?>">Home <span class="sr-only"> (current)</span></a>
-        <a class="nav-item nav-link" href="<?= BASEURL; ?>/mahasiswa">Mahasiswa</a>  
-        <a class="nav-item nav-link" href="<?= BASEURL; ?>/about">About</a>
+        <a class="nav-item nav-link active" href="<?= BASEURL; ?>"> Home <span class="sr-only"></span></a>
+        <a class="nav-item nav-link" href="<?= BASEURL; ?>/mahasiswa"> Mahasiswa </a>  
+        <a class="nav-item nav-link" href="<?= BASEURL; ?>/about"> About </a>
       </div>
     </div>
   </div>
